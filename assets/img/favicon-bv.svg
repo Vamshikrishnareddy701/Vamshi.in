@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#0073bb" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a8e8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#bgGrad)" />
+  <path d="M25 65 C25 50, 40 45, 50 45 C60 45, 75 50, 75 65 Z" fill="none" stroke="#00a8e8" stroke-width="3" opacity="0.3" />
+  <text x="50" y="62" font-family="'Poppins', sans-serif" font-weight="900" font-size="42" fill="url(#textGrad)" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">BV</text>
+  <circle cx="76" cy="28" r="5" fill="#38bdf8" />
+</svg>

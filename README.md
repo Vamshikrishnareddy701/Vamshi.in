@@ -1,106 +1,67 @@
-# 🚀 # Ayush Raghuwanshi Developer Portfolio Website
+# ☁️ Bapuram Vamshi - AWS Cloud Developer Portfolio
 
-**Author:** Ayush Raghuwanshi  
-Software Engineer specializing in RPA, Python and AI ML development.  
-Portfolio: https://ayushraghuwanshi.netlify.app
-
-**A modern, responsive developer portfolio showcasing projects, skills, case studies and achievements.**  
-Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, GLightbox, Swiper, Isotope and a persistent dark mode toggle.
-
-[![Website Status](https://img.shields.io/badge/status-ready-brightgreen.svg)](https://github.com/iamayuu/dev-portfolio-website) ![Deployment](https://img.shields.io/badge/deploy-netlify-blue) ![Build](https://img.shields.io/badge/build-static%20site-orange) ![UI Quality](https://img.shields.io/badge/UI-polished-purple) ![Tech Stack](https://img.shields.io/badge/tech-HTML%20CSS%20JS-yellow)
-
----
-
-![Maintenance](https://img.shields.io/badge/maintained-yes-success) ![Last Commit](https://img.shields.io/github/last-commit/iamayuu/dev-portfolio-website) ![Stars](https://img.shields.io/github/stars/iamayuu/dev-portfolio-website?style=flat) ![Issues](https://img.shields.io/github/issues/iamayuu/dev-portfolio-website)
+**Name:** Bapuram Vamshi  
+**Education:** B.Tech in Computer Science and Engineering (Artificial Intelligence), 2nd Year (3rd Semester)  
+**University:** Yenepoya (Deemed to be University)  
+**Primary Career Interest:** AWS Cloud Computing and Cloud Engineering  
+**GitHub:** [github.com/Vamshikrishnareddy701](https://github.com/Vamshikrishnareddy701)  
+**LinkedIn:** [linkedin.com/in/bapuram-vamshi-b79981374](https://linkedin.com/in/bapuram-vamshi-b79981374)  
+**Email:** [vamshikrishnareddyv95@gmail.com](mailto:vamshikrishnareddyv95@gmail.com)  
+**Phone:** +91 7013339116  
 
 ---
 
-<p align="center">
-  <a href="https://ayushraghuwanshi.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Live%20Demo-black?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Live Site">
-  </a>
-</p>
+## 🌟 Overview
+
+A clean, modern, responsive developer portfolio for **Bapuram Vamshi**, a second-year B.Tech CSE (AI) student specializing in AWS Cloud Computing. Built using clean HTML5, CSS3, and JavaScript with Bootstrap 5, AOS animations, and an AWS cloud-inspired dark design system.
 
 ---
 
-## 🔖 Repository
+## 🛠 Tech Stack & Skills
 
-**Name:** `dev-portfolio-website`  
-**Description:** A modern developer portfolio website with interactive project pages, certificate previews and polished UI.
-
----
-
-## ✨ Features
-
-- Dark and light theme with persistent user preference
-- Responsive layout, optimized for mobile and desktop
-- Smooth scroll animations via AOS
-- Project filtering and masonry layout via Isotope
-- Skills section with gradient progress bar with animations on reload
-- Certificate previews with GLightbox
-- Testimonials carousel using Swiper
-- Animated counters with PureCounter
-- Contact form with client side validation
-- Dedicated project case study pages
+- **Cloud Computing:** AWS Fundamentals, Amazon EC2, Amazon S3, AWS Lambda, Amazon VPC, AWS IAM
+- **Development Tools:** Git, GitHub, Linux Fundamentals
+- **Programming & Web:** Python Fundamentals, HTML, CSS, JavaScript
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-dev-portfolio-website/  
-├── index.html  
-├── portfolio-details-\*.html  
-├── assets/  
-│ ├── css/  
-│ │ └── main.css  
-│ ├── js/  
-│ │ └── main.js  
-│ ├── img/  
-│ └── libs/  
+```
+.
+├── index.html                             # Main single-page portfolio
+├── portfolio-details-aws-ec2.html         # AWS EC2 Project detail page
+├── portfolio-details-aws-serverless.html  # AWS Serverless Project detail page
+├── assets/
+│   ├── css/
+│   │   └── main.css                       # Dark theme and custom cloud CSS
+│   ├── js/
+│   │   └── main.js                        # Navigation, scroll & interactions
+│   ├── img/                               # Avatars, graphics, favicons & project images
+│   └── libs/                              # Vendor libraries (Bootstrap, AOS, etc.)
 └── README.md
-
----
-
-## 🛠 Tech Stack
-
-- HTML5
-- CSS3 (main.css)
-- JavaScript (main.js)
-
----
-
-## ⚙️ Local Setup
-
-1. Clone the repo
-
-```bash
-git clone https://github.com/iamayuu/dev-portfolio-website.git
-cd dev-portfolio-website
 ```
 
-2. Open locally Double click index.html or serve with a static server  
-   optional: serve with Python
+---
 
+## 🚀 How to Run Locally
+
+You can preview the portfolio using any standard local web server or by launching `index.html` directly in your browser.
+
+### Option 1: Using Python Built-in HTTP Server
 ```bash
-python3 -m http.server 8000
+python -m http.server 8080
 ```
+Then open [http://localhost:8080](http://localhost:8080) in your web browser.
 
-then open http://localhost:8000
-
-3. Make edits
-
-- Modify HTML in project pages
-- Update CSS in assets/css/main.css
-- Update scripts in assets/js/main.js
-
----
-
-## Known Issues ⚠️
-
-- Dark mode toggle misaligns when you zoom in website, It needs manual refresh to correct it's position <img src="https://img.shields.io/badge/status-in%20progress-blue" alt="in progress" />
+### Option 2: Using Node `npx http-server` or `npx serve`
+```bash
+npx http-server -p 8080
+```
+Then open [http://localhost:8080](http://localhost:8080).
 
 ---
 
-Created and maintained by **Ayush Raghuwanshi**  
-GitHub: https://github.com/iamayuu  
-LinkedIn: https://linkedin.com/in/ayush-raghuwanshi1/
+## 📄 License
+
+This project is maintained by **Bapuram Vamshi**.
